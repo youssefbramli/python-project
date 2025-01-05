@@ -22,7 +22,7 @@ def game():
             print("Invalid challenge type. Please select a valid challenge.")
             continue
 
-        # Choose a player
+       
         selected_player = choose_player(team)
         if not selected_player:
             print("No player selected. Please try again.")
@@ -55,5 +55,5 @@ def game():
     print("You can now access the final challenge in the treasure room!")
     treasure_room()
 
-# Run the game
+
 game()
